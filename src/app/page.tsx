@@ -1,3 +1,13 @@
+import FeaturesSection from "@/components/FeaturesSection"
+import HeroSection from "@/components/HeroSection"
+import ReactDOM from "react-dom"
+
 export default function Home() {
-  return <div>Main page</div>
+  ReactDOM.preload("/images/herobg.webp", { as: "image" })
+  return (
+    <div>
+      <HeroSection />
+      <FeaturesSection />
+    </div>
+  )
 }
