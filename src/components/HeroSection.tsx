@@ -10,12 +10,13 @@ const HeroSection = () => {
             Clients
           </h1>
           <p className="md:text-lg">
-            Achieve better Google rankings with a hand-crafted website built to
-            boost your visibility and growth.
-          </p>
-          <p className="md:text-lg">
             We don{"'"}t use page builders like Wix or Wordpress - Every line is
             hand-coded to optimize performance and SEO.
+          </p>
+          <p className="md:text-lg">
+            Achieve better Google rankings with a hand-crafted website built to
+            boost your visibility and growth starting at{" "}
+            <span className="font-semibold">$50/mo</span>.
           </p>
           <div>
             <button className="w-72 bg-lightTeal hover:bg-teal-700 text-white md:text-lg font-bold py-2 rounded">

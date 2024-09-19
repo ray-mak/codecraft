@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const FeaturesSection = () => {
   return (
-    <div className="-mt-8 md:-mt-12 lg:-mt-16 flex items-center justify-center transition-colors duration-300">
+    <div className="-mt-8 md:-mt-12 lg:-mt-16 pb-12 flex items-center justify-center transition-colors duration-300">
       <div className="w-full md:w-5/6 lg:w-3/4 lg:max-w-6xl grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-10 p-4 md:p-0">
         <div className="relative flex flex-col items-center justify-center gap-4 border border-gray-300 bg-gray-50 dark:bg-gray-800 p-6 hover:border-teal-700 hover:shadow-xl  transition-colors duration-300">
           <div>
