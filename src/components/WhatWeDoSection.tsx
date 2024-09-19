@@ -6,7 +6,10 @@ const WhatWeDoSection = () => {
       <div className="flex w-full md:w-5/6 lg:w-3/4 lg:max-w-6xl items-center justify-center">
         <div className="flex gap-4 items-center">
           <div className="w-20 h-[2px] bg-lightTeal"></div>
-          <h2 className="text-4xl font-medium text-center">What We Do</h2>
+          <h2 className="text-4xl font-bold text-center">
+            <span className="text-teal-700 dark:text-lightTeal">What</span> We
+            Do
+          </h2>
           <div className="w-20 h-[2px] bg-lightTeal"></div>
         </div>
       </div>
@@ -22,7 +25,7 @@ const WhatWeDoSection = () => {
             width={500}
             height={500}
             alt="picture of a lightbulb"
-            className="xl:w-full"
+            className="xl:w-5/6"
           />
         </div>
         <div className="w-full flex flex-col justify-center gap-6 bg-gray-50 dark:bg-gray-800 p-6 rounded-lg border">

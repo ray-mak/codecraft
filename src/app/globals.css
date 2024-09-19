@@ -57,6 +57,10 @@ html {
   background-size: cover;
 }
 
+.profile-img {
+  box-shadow: 12px 12px 0px 0px rgba(17, 94, 89, 0.97);
+}
+
 @media (max-width: 1280px) {
   .hero-section {
     height: 75vh;

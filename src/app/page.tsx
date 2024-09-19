@@ -1,6 +1,8 @@
+import ContactForm from "@/components/ContactForm"
 import FeaturesSection from "@/components/FeaturesSection"
 import HeroSection from "@/components/HeroSection"
 import WhatWeDoSection from "@/components/WhatWeDoSection"
+import WhoWeAre from "@/components/WhoWeAre"
 import ReactDOM from "react-dom"
 
 export default function Home() {
@@ -10,6 +12,11 @@ export default function Home() {
       <HeroSection />
       <FeaturesSection />
       <WhatWeDoSection />
+      <WhoWeAre />
+      <div className="my-16">
+        <h2 className="text-4xl font-bold text-center mb-6">Contact Us</h2>
+        <ContactForm />
+      </div>
     </div>
   )
 }
