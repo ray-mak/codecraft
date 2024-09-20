@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 
 const HeroSection = () => {
   return (
@@ -19,14 +20,17 @@ const HeroSection = () => {
             <span className="font-semibold">$50/mo</span>.
           </p>
           <div>
-            <button className="w-72 bg-lightTeal hover:bg-teal-700 text-white md:text-lg font-bold py-2 rounded">
+            <Link
+              href="/#contact"
+              className="px-16 bg-lightTeal hover:bg-teal-700 text-white md:text-lg font-bold py-2 rounded"
+            >
               Get In Touch
-            </button>
+            </Link>
           </div>
         </div>
         <div className="lg:col-span-2 w-full h-60"></div>
       </div>
-      <div className="absolute w-full h-full grid lg:grid-cols-4">
+      <div className="pointer-events-none absolute w-full h-full grid lg:grid-cols-4">
         <div className="col-span-2"></div>
         <div className="relative col-span-2 flex">
           <div className="w-full h-full"></div>

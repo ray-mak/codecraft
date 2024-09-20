@@ -18,8 +18,7 @@ export function Navbar() {
             }
             width={180}
             height={60}
-            alt="human body shop logo"
-            className="logo"
+            alt="codecraft web design logo"
           />
         </Link>
         <HamburgerMenu />

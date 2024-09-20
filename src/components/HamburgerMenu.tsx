@@ -31,7 +31,7 @@ export default function HamburgerMenu() {
         } `}
       >
         <Link
-          href="/about"
+          href="/"
           className={` font-semibold text-darkIndigo dark:text-lightGray transition-colors duration-300  ${
             pathname === "/" ? "underline" : ""
           }`}
