@@ -128,7 +128,6 @@ const ServicesPage = () => {
             </div>
           </div>
         </div>
-        <Footer />
       </div>
     </div>
   )

@@ -18,16 +18,6 @@ const Footer = () => {
           <table className="border-separate border-spacing-y-2">
             <tbody>
               <tr>
-                <td className="align-top">Address:</td>
-                <td className="pl-4">
-                  <div>
-                    319 Pinnacle St. Ste B
-                    <br />
-                    Perris, CA 92570
-                  </div>
-                </td>
-              </tr>
-              <tr>
                 <td>Phone:</td>
                 <td className="pl-4">951-990-3113</td>
               </tr>

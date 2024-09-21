@@ -18,7 +18,6 @@ export default function Home() {
         <h2 className="text-4xl font-bold text-center mb-6">Contact Us</h2>
         <ContactForm />
       </div>
-      <Footer />
     </div>
   )
 }

@@ -24,10 +24,10 @@ const ContactForm = () => {
   return (
     <form className="p-4">
       <div className="flex flex-col items-center justify-center gap-6">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-4">
           <label
             htmlFor="name"
-            className="w-80 flex flex-col text-gray-600 dark:text-gray-200"
+            className="flex flex-col text-gray-600 dark:text-gray-200"
           >
             Name{"*"}
             <input
