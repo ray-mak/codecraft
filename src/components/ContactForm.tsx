@@ -1,5 +1,6 @@
 "use client"
 
+import SendMessage, { MessageProps } from "@/app/actions/SendMessage"
 import { useState } from "react"
 
 const ContactForm = () => {
@@ -19,10 +20,27 @@ const ContactForm = () => {
     setFormData({ ...formData, [e.target.name]: e.target.value })
   }
 
-  console.log(formData)
+  function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+    e.preventDefault()
+    if (
+      formData.name !== "" &&
+      formData.message !== "" &&
+      formData.phone !== ""
+    ) {
+      const sendMessageServer = async (data: MessageProps) => {
+        const { error, success } = await SendMessage(data)
+        if (error) {
+          alert(error)
+        } else {
+          alert(success)
+        }
+      }
+      sendMessageServer(formData)
+    }
+  }
 
   return (
-    <form className="p-4">
+    <form className="p-4" onSubmit={handleSubmit}>
       <div className="flex flex-col items-center justify-center gap-6">
         <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-4">
           <label
