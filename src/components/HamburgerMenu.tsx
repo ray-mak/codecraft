@@ -42,7 +42,7 @@ export default function HamburgerMenu() {
         <Link
           href="/services"
           className={` font-semibold text-darkIndigo dark:text-lightGray transition-colors duration-300  ${
-            pathname === "/about" ? "underline" : ""
+            pathname === "/services" ? "underline" : ""
           }`}
           onClick={closeHamburger}
         >

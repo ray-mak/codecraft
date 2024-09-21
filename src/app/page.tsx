@@ -14,9 +14,11 @@ export default function Home() {
       <FeaturesSection />
       <WhatWeDoSection />
       <WhoWeAre />
-      <div id="contact" className="my-16">
-        <h2 className="text-4xl font-bold text-center mb-6">Contact Us</h2>
-        <ContactForm />
+      <div id="contact" className="my-16 flex justify-center">
+        <div className="w-full md:w-5/6 lg:w-3/4 lg:max-w-4xl">
+          <h2 className="text-4xl font-bold text-center mb-6">Contact Us</h2>
+          <ContactForm />
+        </div>
       </div>
     </div>
   )
