@@ -32,10 +32,10 @@ const WhoWeAre = () => {
             </p>
             <div className="mt-4 ">
               <Link
-                href="/about"
+                href="/contact"
                 className="px-8 py-2 bg-teal-700 text-white hover:bg-teal-600"
               >
-                Learn More
+                Contact Us
               </Link>
             </div>
           </div>
@@ -57,10 +57,10 @@ const WhoWeAre = () => {
             </p>
             <div className="mt-4 ">
               <Link
-                href="/about"
+                href="/contact"
                 className="px-8 py-2 bg-teal-700 text-white hover:bg-teal-600"
               >
-                Learn More
+                Contact Us
               </Link>
             </div>
           </div>
