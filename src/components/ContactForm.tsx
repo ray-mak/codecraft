@@ -31,7 +31,7 @@ const ContactForm = () => {
     ) {
       setLoading(true)
       const sendMessageServer = async (data: MessageProps) => {
-        const { error, success } = await SendMessage(data)
+        const { error } = await SendMessage(data)
         if (error) {
           setError(error)
           setLoading(false)
