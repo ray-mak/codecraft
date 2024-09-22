@@ -21,7 +21,7 @@ const HeroSection = () => {
           </p>
           <div>
             <Link
-              href="/#contact"
+              href="/contact"
               className="px-16 bg-lightTeal hover:bg-teal-700 text-white md:text-lg font-bold py-2 rounded"
             >
               Get In Touch

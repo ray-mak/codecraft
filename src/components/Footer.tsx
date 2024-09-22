@@ -52,7 +52,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="w-full bg-indigo-950 flex justify-center py-4 text-gray-200">
+      <div className="w-full bg-indigo-950 flex items-center justify-center p-4 text-gray-200 text-center">
         <p>
           Copyright &copy; {new Date().getFullYear()} CodeCraft Web Design | All
           Rights Reserved
