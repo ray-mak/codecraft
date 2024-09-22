@@ -1,6 +1,5 @@
 import ContactForm from "@/components/ContactForm"
 import FeaturesSection from "@/components/FeaturesSection"
-import Footer from "@/components/Footer"
 import HeroSection from "@/components/HeroSection"
 import WhatWeDoSection from "@/components/WhatWeDoSection"
 import WhoWeAre from "@/components/WhoWeAre"

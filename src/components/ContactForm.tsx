@@ -11,7 +11,9 @@ const ContactForm = () => {
     subject: "",
     message: "",
   })
-
+  const [success, setSuccess] = useState<boolean>(false)
+  const [error, setError] = useState<string | null>()
+  const [loading, setLoading] = useState<boolean>(false)
   const handleChange = (
     e:
       | React.ChangeEvent<HTMLInputElement>
@@ -27,12 +29,22 @@ const ContactForm = () => {
       formData.message !== "" &&
       formData.phone !== ""
     ) {
+      setLoading(true)
       const sendMessageServer = async (data: MessageProps) => {
         const { error, success } = await SendMessage(data)
         if (error) {
-          alert(error)
+          setError(error)
+          setLoading(false)
         } else {
-          alert(success)
+          setSuccess(true)
+          setFormData({
+            name: "",
+            email: "",
+            phone: "",
+            subject: "",
+            message: "",
+          })
+          setLoading(false)
         }
       }
       sendMessageServer(formData)
@@ -42,6 +54,18 @@ const ContactForm = () => {
   return (
     <form className="p-4" onSubmit={handleSubmit}>
       <div className="flex flex-col items-center justify-center gap-6">
+        {success && (
+          <div className="text-green-600 px-4 py-2 rounded flex flex-col items-center justify-center">
+            <p>Message sent! We{"'"}ll reach out to you as soon as possible.</p>
+          </div>
+        )}
+
+        {error && (
+          <div className="text-red-600 px-4 py-2 rounded flex flex-col items-center justify-center">
+            <p>error</p>
+          </div>
+        )}
+
         <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-4">
           <label
             htmlFor="name"
@@ -119,7 +143,8 @@ const ContactForm = () => {
         </div>
         <button
           type="submit"
-          className="mt-4 px-6 py-2 rounded bg-teal-700 hover:bg-teal-800 text-white transition-colors duration-300"
+          className="mt-4 px-6 py-2 rounded bg-teal-700 hover:bg-teal-800 text-white transition-colors duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
+          disabled={loading}
         >
           Send Message
         </button>

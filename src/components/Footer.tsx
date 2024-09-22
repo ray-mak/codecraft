@@ -3,8 +3,8 @@ import Link from "next/link"
 
 const Footer = () => {
   return (
-    <div className="flex items-center justify-center bg-indigo-950">
-      <div className="relative  md:w-5/6 lg:w-3/4 lg:max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 px-4 md:px-0 py-20 text-gray-200 gap-16">
+    <div className="flex flex-col items-center justify-center bg-indigo-950">
+      <div className="md:w-5/6 lg:w-3/4 lg:max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 px-4 md:px-0 py-20 text-gray-200 gap-16">
         <div>
           <Image
             src="/images/logodark.svg"
@@ -51,6 +51,12 @@ const Footer = () => {
             </Link>
           </div>
         </div>
+      </div>
+      <div className="w-full bg-indigo-950 flex justify-center py-4 text-gray-200">
+        <p>
+          Copyright &copy; {new Date().getFullYear()} CodeCraft Web Design | All
+          Rights Reserved
+        </p>
       </div>
     </div>
   )

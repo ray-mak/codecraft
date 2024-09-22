@@ -1,4 +1,3 @@
-import Footer from "@/components/Footer"
 import { faCircleCheck } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import Image from "next/image"
@@ -25,7 +24,7 @@ const ServicesPage = () => {
             </div>
             <div className="flex flex-col gap-6 justify-center">
               <h2 className="text-3xl font-bold">
-                Fully Custom Web Design & Development
+                Fully Custom Web Design &amp; Development
               </h2>
               <p className="text-lg">
                 We build custom websites that are tailored to your business

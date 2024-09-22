@@ -19,7 +19,7 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "Small Business Web Development",
   description:
-    "Convert leads into customers with a responsive website that is search engine optimized.",
+    "We help small businesses convert leads into customers with a responsive website that is search engine optimized at affordable prices.",
 }
 
 export default function RootLayout({

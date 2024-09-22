@@ -59,7 +59,7 @@ const WhatWeDoSection = () => {
             <div className="flex gap-2">
               <div className="check-box relative p-4">
                 <p className="text-xl font-bold text-gray-700 dark:text-gray-200">
-                  Design & Development
+                  Design &amp; Development
                 </p>
                 <p className="mt-1 text-gray-700 dark:text-gray-200">
                   Over 40 hours of design, development and testing to ensure

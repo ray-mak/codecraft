@@ -17,7 +17,7 @@ export default async function SendMessage(messageData: MessageProps) {
     return { error: "Please fill required fields" }
   }
 
-  let transporter = nodemailer.createTransport({
+  const transporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
       user: process.env.EMAIL,
@@ -25,7 +25,7 @@ export default async function SendMessage(messageData: MessageProps) {
     },
   })
 
-  let mailOptions = {
+  const mailOptions = {
     from: "no-reply@codecraftwebdesign.com",
     to: "rmak12594@gmail.com",
     subject: `New message from ${name} - ${subject}`,
@@ -37,7 +37,7 @@ export default async function SendMessage(messageData: MessageProps) {
       <li><strong>Phone:</strong> ${phone}</li>
       <li><strong>Subject:</strong> ${subject}</li>
     </ul>
-    <h3>Message</h3>
+    <h3>Message:</h3>
     <p>${message}</p>`,
   }
   try {
