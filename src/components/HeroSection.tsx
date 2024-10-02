@@ -7,8 +7,7 @@ const HeroSection = () => {
       <div className="grid grid-cols-1 lg:grid-cols-4 p-6 w-full md:w-5/6 lg:w-3/4 lg:max-w-6xl items-center justify-center">
         <div className="lg:col-span-2 flex flex-col gap-6">
           <h1 className="text-xl md:text-3xl xl:text-5xl font-bold">
-            Custom Web Design &amp; Development to Boost Your Small Business
-            {"'"}s Google Rankings
+            Small Business Web Design &amp; Development
           </h1>
           <p className="md:text-lg">
             We don{"'"}t use page builders like Wix or Wordpress - Every line is
