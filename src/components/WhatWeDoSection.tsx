@@ -31,7 +31,7 @@ const WhatWeDoSection = () => {
         <div className="w-full flex flex-col justify-center gap-6 bg-gray-50 dark:bg-gray-800 p-6 rounded-lg border">
           <h3 className="text-4xl font-bold text-gray-800 dark:text-gray-200">
             <span className="text-lightTeal">$0</span> Down,{" "}
-            <span className="text-lightTeal">$50</span> Per Month, <br /> 6
+            <span className="text-lightTeal">$50</span> Per Month, <br /> 12
             Month Minimum Contract
           </h3>
           <p className="text-gray-700 dark:text-gray-200">
@@ -41,7 +41,7 @@ const WhatWeDoSection = () => {
             help you grow your business.
           </p>
           <p className="text-gray-700 dark:text-gray-200">
-            For $50 a month, you will get a standard 5 page website, plus all of
+            For $50 a month, you will get a standard 4 page website, plus all of
             the following:
           </p>
           <div className="my-8 w-full pl-4 grid sm:grid-cols-2 gap-2 gap-y-12">
