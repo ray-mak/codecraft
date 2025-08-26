@@ -7,16 +7,16 @@ const HeroSection = () => {
       <div className="grid grid-cols-1 lg:grid-cols-4 p-6 w-full md:w-5/6 lg:w-3/4 lg:max-w-6xl items-center justify-center">
         <div className="lg:col-span-2 flex flex-col gap-6">
           <h1 className="text-xl md:text-3xl xl:text-5xl font-bold">
-            Small Business Web Design &amp; Development
+            Web Development to Scale Your Business
           </h1>
           <p className="md:text-lg">
-            We don{"'"}t use page builders like Wix or Wordpress - Every line is
-            hand-coded to optimize performance and SEO.
+            We create everything from beautiful small business sites to complex
+            custom web apps using hand-crefted code for performance,
+            scalability, and visibility.
           </p>
           <p className="md:text-lg">
-            Achieve better Google rankings with a hand-crafted website built to
-            boost your visibility and growth starting at{" "}
-            <span className="font-semibold">$50/mo</span>.
+            We are US-based engineers that dedicated to delivering reliable
+            service and quality results.
           </p>
           <div>
             <Link

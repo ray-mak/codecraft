@@ -17,7 +17,7 @@ const AboutPage = () => {
                 CODECRAFT WEB DESIGN
               </h2>
               <p className="text-3xl font-bold text-gray-800 dark:text-gray-200">
-                Helping Small Businesses Improve Their Web Presence Affordably
+                Helping Businesses Implement Custom Software Solutions
               </p>
               <p className="text-lg text-gray-800 dark:text-gray-200 mt-4">
                 My name is Ray Mak and I am the owner of CodeCraft Web Design. I
@@ -26,19 +26,17 @@ const AboutPage = () => {
                 presence.
               </p>
               <p className="text-lg text-gray-800 dark:text-gray-200 mt-4">
-                Having worked in and with small businesses, I{"'"}ve discovered
-                that most small businesses don{"'"}t have the budget to spend
-                thousands of dollars on a custom website. They end up resorting
-                to page builders which are slow, bloated, and not optimized for
-                search engines.
+                What started as a hobby turned into a passion for web
+                development and creating custom solutions that can have a
+                real-world impact. From e-commerce stores and booking platforms
+                to educational portals and fully custom applications, I build
+                scalable, high-performing tools designed to help businesses grow
+                and operate more efficiently.
               </p>
               <p className="text-lg text-gray-800 dark:text-gray-200 mt-4">
-                That{"’"}s why I started CodeCraft Web Design - to offer small
-                businesses a better option. We provide custom web design and
-                development that{"’"}s not only affordable but tailored to help
-                your business grow. For just $50 a month, you{"’"}ll get a
-                website that{"’"}s fast, responsive, and optimized to get
-                noticed, giving you more value than any page builder ever could.
+                My goal is to provide businesses of all sizes with digital
+                solutions that combine clean code, strong performance, and
+                real-world results.
               </p>
             </div>
             <div className="flex items-center justify-center px-12 lg:px-0">

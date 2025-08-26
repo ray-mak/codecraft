@@ -7,19 +7,19 @@ const FeaturesSection = () => {
         <div className="relative flex flex-col items-center justify-center gap-4 border border-gray-300 bg-gray-50 dark:bg-gray-800 p-6 hover:border-teal-700 hover:shadow-xl  transition-colors duration-300">
           <div>
             <Image
-              src="/images/seo-icon.webp"
+              src="/images/custom-icon.png"
               width={70}
               height={70}
               alt="icon of seo"
             />
           </div>
           <h2 className="text-xl font-semibold text-gray-800 dark:text-gray-200 text-center">
-            Improve SEO
+            Custom Development
           </h2>
           <p className="text-center text-gray-800 dark:text-gray-200">
-            Your website will be built to rank high on search engines. We
-            incorporate best-in-class SEO practices to ensure your site is
-            easily discoverable.
+            Our solutions architecture guarantees your systems are robust,
+            secure, and ready to adapt to future demands - from infrastructure
+            design to data management.
           </p>
           <div className="absolute -top-3 h-3 bg-lightTeal dark:bg-teal-700 w-5/6 justify-center"></div>
         </div>
@@ -45,19 +45,19 @@ const FeaturesSection = () => {
         <div className="relative flex flex-col items-center justify-center gap-4 border border-gray-300 bg-gray-50 dark:bg-gray-800 p-6 hover:border-teal-700 hover:shadow-xl  transition-colors duration-300">
           <div>
             <Image
-              src="/images/funnel-icon.webp"
+              src="/images/cs-icon.png"
               width={70}
               height={70}
               alt="icon of a funnel"
             />
           </div>
           <h2 className="text-xl font-semibold text-gray-800 dark:text-gray-200 text-center">
-            User Conversion
+            US-Based Support
           </h2>
           <p className="text-center text-gray-800 dark:text-gray-200">
-            Designed with your customers in mind, we map out a strategic user
-            journey that guides visitors through the site, turning casual
-            browsers into leads.
+            Work with a reliable, local team dedicated to quality service and
+            real results. We{"'"}re here when you need us, from launch to
+            ongoing improvements.
           </p>
           <div className="absolute -top-3 h-3 bg-lightTeal dark:bg-teal-700 w-5/6 justify-center"></div>
         </div>

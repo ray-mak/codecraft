@@ -1,6 +1,7 @@
 import ContactForm from "@/components/ContactForm"
 import FeaturesSection from "@/components/FeaturesSection"
 import HeroSection from "@/components/HeroSection"
+import OurWorkSection from "@/components/OurWorkSection"
 import WhatWeDoSection from "@/components/WhatWeDoSection"
 import WhoWeAre from "@/components/WhoWeAre"
 import ReactDOM from "react-dom"
@@ -11,7 +12,9 @@ export default function Home() {
     <div>
       <HeroSection />
       <FeaturesSection />
+
       <WhatWeDoSection />
+      <OurWorkSection />
       <WhoWeAre />
       <div id="contact" className="my-16 flex justify-center">
         <div className="w-full md:w-5/6 lg:w-3/4 lg:max-w-4xl">
