@@ -3,12 +3,12 @@ import Link from "next/link"
 
 const WhoWeAre = () => {
   return (
-    <div className="flex flex-col items-center justify-center gap-8 px-4 py-12 bg-slate-200 dark:bg-slate-800">
+    <div className="flex flex-col items-center justify-center gap-8 px-4 py-12 bg-slate-700 dark:bg-slate-800">
       <div className="flex w-full md:w-5/6 lg:w-3/4 lg:max-w-6xl items-center justify-center">
         <div className="flex gap-4 items-center">
           <div className="w-20 h-[2px] bg-lightTeal"></div>
-          <h2 className="text-4xl font-bold text-center">
-            <span className="text-teal-700 dark:text-lightTeal">Who</span> We
+          <h2 className="text-4xl font-bold text-center text-white">
+            <span className="text-lightTeal dark:text-lightTeal">Who</span> We
             Are
           </h2>
           <div className="w-20 h-[2px] bg-lightTeal"></div>
@@ -25,10 +25,17 @@ const WhoWeAre = () => {
               its search ranking on Google.
             </p>
             <p>
-              That experience sparked my passion for web design and development.
-              Now, I specialize on helping other small businesses create custom
-              websites that not only look great but also drive traffic and grow
-              their business.
+              That hands-on experience turned into a passion for web design and
+              development. Today, I go beyond simple websites to create custom
+              solutions tailored to each client{"'"}s needs. From e-commerce
+              stores and booking platforms to educational portals and fully
+              custom applications, I build scalable, high-performing tools
+              designed to help businesses grow and operate more efficiently.
+            </p>
+            <p>
+              My goal is to provide businesses of all sizes with digital
+              solutions that combine clean code, strong performance, and
+              real-world results.
             </p>
             <div className="mt-4 ">
               <Link
@@ -50,10 +57,17 @@ const WhoWeAre = () => {
               its search ranking on Google.
             </p>
             <p>
-              That experience sparked my passion for web design and development.
-              Now, I specialize on helping other small businesses create custom
-              websites that not only look great but also drive traffic and grow
-              their business.
+              That hands-on experience turned into a passion for web design and
+              development. Today, I go beyond simple websites to create custom
+              solutions tailored to each client{"'"}s needs. From e-commerce
+              stores and booking platforms to educational portals and fully
+              custom applications, I build scalable, high-performing tools
+              designed to help businesses grow and operate more efficiently.
+            </p>
+            <p>
+              My goal is to provide businesses of all sizes with digital
+              solutions that combine clean code, strong performance, and
+              real-world results.
             </p>
             <div className="mt-4 ">
               <Link

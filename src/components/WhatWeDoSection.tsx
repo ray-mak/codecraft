@@ -14,9 +14,11 @@ const WhatWeDoSection = () => {
         </div>
       </div>
       <p className="max-w-2xl md:text-lg text-center text-gray-700 dark:text-gray-200">
-        We specialize in helping small businesses create custom websites at
-        affordable rates. Our code is hand written to optimize performance,
-        which increases traffic and revenue for your business.
+        We build everything from high-performing websites for small businesses
+        to fully customized web applications for growing companies. Every
+        project is hand-coded for speed, scalability, and SEO, giving you a
+        digital solution that drives traffic, boosts revenue, and grows with
+        your business.
       </p>
       <div className="lg:mt-6 grid grid-cols-1 xl:grid-cols-2 w-full lg:max-w-[100rem] p-4 gap-8 lg:gap-0">
         <div className="w-full flex justify-center items-center">
@@ -30,19 +32,14 @@ const WhatWeDoSection = () => {
         </div>
         <div className="w-full flex flex-col justify-center gap-6 bg-gray-50 dark:bg-gray-800 p-6 rounded-lg border">
           <h3 className="text-4xl font-bold text-gray-800 dark:text-gray-200">
-            <span className="text-lightTeal">$0</span> Down,{" "}
-            <span className="text-lightTeal">$50</span> Per Month, <br /> 12
-            Month Minimum Contract
+            <span className="text-lightTeal">Custom</span> Web Solutions to
+            Match Your Budget and Needs
           </h3>
           <p className="text-gray-700 dark:text-gray-200">
-            We understand that most small businesses don{"'"}t want to pay
-            thousands of dollars for a website. That{"'"}s why we offer an{" "}
-            <span className="font-semibold">affordable solution</span> that will
-            help you grow your business.
-          </p>
-          <p className="text-gray-700 dark:text-gray-200">
-            For $50 a month, you will get a standard 4 page website, plus all of
-            the following:
+            We know every business is different, so our tiered plans give you
+            the flexibility to choose what fits best. Whether you need a small
+            business website or an advanced web app, you{"'"}ll get the same
+            commitment to performance, security, and long-term growth.
           </p>
           <div className="my-8 w-full pl-4 grid sm:grid-cols-2 gap-2 gap-y-12">
             <div className="flex gap-2">
@@ -92,22 +89,22 @@ const WhatWeDoSection = () => {
             <div className="flex gap-2">
               <div className="check-box relative p-4">
                 <p className="text-xl font-bold text-gray-700 dark:text-gray-200">
-                  100 Google SEO Score
+                  SEO & Analytics
                 </p>
                 <p className="mt-1 text-gray-700 dark:text-gray-200">
-                  We help boost the search ranking of your website with a
-                  perfect 100 on Google SEO Score.
+                  Optimized for search rankings with built-in analytics to track
+                  traffic, growth, and performance.
                 </p>
               </div>
             </div>
             <div className="flex gap-2">
               <div className="check-box relative p-4">
                 <p className="text-xl font-bold text-gray-700 dark:text-gray-200">
-                  Google Analytics
+                  AI Integration
                 </p>
                 <p className="mt-1 text-gray-700 dark:text-gray-200">
-                  We can implement Google Analytics to track your website and
-                  see where traffic is coming from.
+                  Integrate modern AI tools and APIs to streamline workflows and
+                  give your business an edge.
                 </p>
               </div>
             </div>
