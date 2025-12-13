@@ -11,12 +11,12 @@ const HeroSection = () => {
           </h1>
           <p className="md:text-lg">
             We create everything from beautiful small business sites to complex
-            custom web apps using hand-crefted code for performance,
+            custom web apps using hand-crafted code for performance,
             scalability, and visibility.
           </p>
           <p className="md:text-lg">
-            We are US-based engineers that dedicated to delivering reliable
-            service and quality results.
+            We are US-based engineers dedicated to delivering reliable service
+            and quality results.
           </p>
           <div>
             <Link
