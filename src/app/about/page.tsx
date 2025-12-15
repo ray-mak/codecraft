@@ -41,7 +41,7 @@ const AboutPage = () => {
             </div>
             <div className="flex items-center justify-center px-12 lg:px-0">
               <Image
-                src="/images/profile-img.jpg"
+                src="/images/hero_img.jpg"
                 width={500}
                 height={500}
                 alt="picture of Ray Mak"

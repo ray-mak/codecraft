@@ -79,9 +79,9 @@ const WhoWeAre = () => {
             </div>
           </div>
         </div>
-        <div className="order-2 col-span-1 lg:col-span-2 mt-16 lg:mt-0">
+        <div className="order-2 col-span-1 lg:col-span-2 mt-12 mb-12 lg:mt-0">
           <Image
-            src="/images/profile-img.jpg"
+            src="/images/hero_img.jpg"
             width={450}
             height={450}
             alt="picture of Ray"
